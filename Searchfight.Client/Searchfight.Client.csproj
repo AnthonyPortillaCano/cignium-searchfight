@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Searchfight.Services\Searchfight.Services.csproj" />
+    <ProjectReference Include="..\Searchfight.Utils\Searchfight.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
